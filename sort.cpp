@@ -3,8 +3,13 @@
 #include <algorithm>
 using namespace std;
 
+//#1
+// Write a function (in C++) that prints the values of an array in ascending order 
+// order on the console and use it with an example array, e.g.
+//    int values[10] = {5,4,3,2,1,1,2,3,4,5}; // expected output: 1 1 2 2 3 3 4 4 5 5
+// Assume a clean C++ environment with STL but no other libraries
 
-// Quick Sort implementation. Runtimes:
+// Quick Sort implementation:
 // on average O(nlogn)
 // worst case O(n^2)
 class QuickSort {

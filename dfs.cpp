@@ -1,6 +1,16 @@
 #include <iostream>
 using namespace std;
 
+//#2
+// C/C++ coding exercise: Write a function to Traverse a tree depth-first with recursion.
+//Example Tree:
+/*
+        A
+       / \
+      B   C
+     / \
+    D   E 
+*/
 
 struct Node {
   char value;
@@ -25,4 +35,3 @@ int main() {
   Node A = {'A', &B, &C};
   traverseDFS(&A);
 }
-
