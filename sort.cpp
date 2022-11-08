@@ -25,7 +25,7 @@ class QuickSort {
       }
 
       int pivot = nums.at(r); // making the right most element our pivot
-      int pivotIndex = l; // finding the right most element 
+      int pivotIndex = l;  
       
       for (int i = l; i < r; ++i) {
         if (nums.at(i) < pivot) {
